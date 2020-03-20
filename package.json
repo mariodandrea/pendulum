@@ -1,0 +1,25 @@
+{
+  "name": "physics-simulator",
+  "version": "1.0.0",
+  "description": "Physics Simulations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariodandrea/physics-simulator.git"
+  },
+  "author": "Mario D'Andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariodandrea/physics-simulator/issues"
+  },
+  "homepage": "https://github.com/mariodandrea/physics-simulator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "matter-js": "^0.14.2",
+    "nodemon": "^2.0.2"
+  }
+}
