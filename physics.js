@@ -20,7 +20,7 @@ var render = Render.create({
 // var boxB = Bodies.rectangle(450, 50, 80, 80);
 // var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
 
-var pendulum = Matter.Composites.newtonsCradle(300, 100, 2, 40, 200)
+var pendulum = Matter.Composites.newtonsCradle(300, 100, 1, 40, 200)
 
 var mouse = Mouse.create(render.canvas),
 mouseConstraint = MouseConstraint.create(engine, {
