@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    return res.render(path.resolve(__dirname, "physics.js"));
+    return res.sendFile(path.resolve(__dirname, './index.html'));
 })
 
 // app.get('/phyiscs.js', (req, res) => {
