@@ -1,1 +1,2 @@
-# physics-simulator
+# pendulum
+Simple pendulum app
