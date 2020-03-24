@@ -1,0 +1,29 @@
+{
+  "name": "pendulum",
+  "version": "1.0.0",
+  "description": "A simple pendulum simulation",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server & nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "matter-js": "^0.14.2",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariodandrea/Pendulum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariodandrea/Pendulum/issues"
+  },
+  "homepage": "https://github.com/mariodandrea/Pendulum#readme"
+}
